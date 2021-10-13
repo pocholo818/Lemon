@@ -1,0 +1,25 @@
+<ion-app>
+  <!--
+    <ion-router-outlet></ion-router-outlet>
+  -->
+
+  <ion-menu side="start" menuId="first" contentId="main">
+    <ion-header>
+      <ion-toolbar color="warning">
+        <ion-title class="ion-text-center">Lemon<ion-icon name="glasses"></ion-icon></ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-item href="/home">Home</ion-item>
+        <ion-item href="/account">Account</ion-item>
+        <ion-item href="/login">Login/Sign Up</ion-item>
+        <ion-item href="/about">About</ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  
+  <ion-router-outlet id="main"></ion-router-outlet>
+  
+  
+</ion-app>
